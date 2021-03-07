@@ -13,10 +13,10 @@ Basic Requirements:
 
 Other Requirements:
 * Warehouses
-- Warehouse data: name, location (country, city, address), contact person, phone number of a contact person, the total number of items in the warehouse.
-- A warehouse, that already exists, cannot be added.
-- A warehouse location, that already exists, cannot be added.
+ Warehouse data: name, location (country, city, address), contact person, phone number of a contact person, the total number of items in the warehouse.
+ A warehouse, that already exists, cannot be added.
+ A warehouse location, that already exists, cannot be added.
 * Items
-- Item data: name, barcode.
-- An item barcode, that already exists, cannot be added.
+ Item data: name, barcode.
+ An item barcode, that already exists, cannot be added.
 
