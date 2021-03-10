@@ -34,6 +34,15 @@ class Item extends Model
         return $result;
     }
 
+    public function delete()
+    {
+        $warehouse_id=$this->warehouse_id;
+        $result = parent::delete();
+
+        $this->updateTotalNumberOfItems($warehouse_id);
+        return $result;
+    }
+
     public function updateTotalNumberOfItems($warehouse_id)
     {
         $warehouse=Warehouse::find($warehouse_id);
