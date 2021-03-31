@@ -4,7 +4,7 @@ Task: Web prototype for warehouse management.
 
 Condition:
 
-Prototype for warehouses management and items in them. Receipt of goods in a warehouse and signing out goods from a warehouse.
+Prototype for warehouses management and items in them. 
 
 Basic Requirements:
 * CRUD operations for warehouses
